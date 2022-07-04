@@ -61,11 +61,17 @@ section {
 .dream {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 50%;
+}
+
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 50%;
 }
 
 .experience .half-width {
-  width: 38%;
+  width: 35%;
   padding: 1% 2%;
   margin: 0 auto;
   height: 300px;
