@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  height: 600px;
+}
+
+.half-width {
+  width: 50%;
+  height: 100%;
+  padding: 2% 4%;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width img {
+  width: 95%;
+}
+
+.highlight {
+  color: orange;
+}
+
+.hero {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.link-btn {
+  color: white;
+  display: inline-block;
+  padding: 8px 20px;
+  background-image: linear-gradient(to right, #ffa07a, #ff6347);
+  border: 1px solid #f88b78;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+}
+
+.link-btn:hover {
+  color: #ff6347;
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.dream {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience .half-width {
+  width: 38%;
+  padding: 1% 2%;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.experience .orange {
+  border-left: 5px solid orange;
+}
+
+.experience .blue {
+  border-left: 5px solid blue;
+}
+
+footer p {
+  color: gray;
+  text-align: center;
+  font-size: 18px;
+}
